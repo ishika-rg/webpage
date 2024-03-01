@@ -3,7 +3,7 @@ import { CiSearch } from "react-icons/ci";
 
 const Navbar = () => {
   return (
-    <div className="bg-slate-900 h-12 flex justify-center items-center ">
+    <div className="bg-slate-900 h-12 flex justify-center items-center  ">
       <div className="relative text-gray-600 ">
         <span className="absolute inset-y-0 left-0 flex items-center pl-2">
           <CiSearch />
@@ -11,7 +11,7 @@ const Navbar = () => {
         <input
           type="search"
           name="q"
-          className="py-1 text-sm  bg-white-900 rounded-md pl-10 w-36 "
+          className="py-1 text-sm  bg-white-900 rounded-md pl-10  w-28 md:w-36 "
           autoComplete="off"
         />
       </div>

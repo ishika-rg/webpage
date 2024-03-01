@@ -13,7 +13,7 @@ const Card2 = () => {
         <div className="absolute -left-6 bg-white border border-slate-200 w-11 h-11 mt-12 rounded-full text-slate-600  text-center text-3xl">
           4
         </div>
-        <div className="mx-10 flex flex-col md:flex-row justify-evenly ">
+        <div className=" mx-0 md:mx-10 flex flex-col md:flex-row justify-evenly ">
           <div className=" w-56 h-44 my-auto mt-20">
             <img className="w-full h-full" src={img1} alt="image1" />
             <div className="text-slate-600">CDK</div>

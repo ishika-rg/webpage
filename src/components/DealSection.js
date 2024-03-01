@@ -19,7 +19,7 @@ const DealSection = () => {
           </h1>
         </div>
         <div className="flex">
-          <input className=" max-h-12 min-w-28 border border-slate-300 rounded-l-xl py-2 pl-9 pr-3"></input>
+          <input className=" max-h-12 w-36 md:w-44 border border-slate-300 rounded-l-xl py-2 pl-9 pr-3"></input>
           <button className="min-w-24 max-h-12 bg-sky-600 rounded-r-xl text-white py-2 px-3 ">
             Sign Up
           </button>
